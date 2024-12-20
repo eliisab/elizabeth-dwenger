@@ -9,10 +9,13 @@
 	--transition-medium: 300ms;
 	--transition-long: 450ms;
 	--transition-extra-long: 800ms;
-	--color-green: #a59f79;
-	--color-blue: #B7D1E1;
-	--color-dark-brown: #91624B;
-	--color-light-brown: #CDA08C;
+	/* --color-green: #a59f79; */
+	--color-green: #DB504A;
+	/* --color-blue: #B7D1E1; */
+	--color-blue: #91624B;
+	--color-dark-brown: #B4B2D1;
+	/* --color-light-brown: #CDA08C; */
+	--color-light-brown: #222222;
 	--color-white: #FFFFFF;
 	--color-light-gray: #BBBFBF;
 	--color-lighter-gray: #F2F7F7;
@@ -134,7 +137,7 @@ h3 {
 	justify-content: space-around;
 	overflow: hidden;
 	font-family: Unna, serif;
-	margin-bottom: 3cm
+	margin-bottom: 2cm
 }
 
 .navbar a {
@@ -197,8 +200,9 @@ h3 {
 }
 
 .clickBio span {
-	display: inline;
-	cursor: pointer
+	/* display: inline;
+	cursor: pointer */
+	display: inline-block;
 }
 
 .clickBio .hidden {
@@ -238,6 +242,8 @@ h3 {
 
 .indexBio {
 	font-family: 'Nanum Myeongjo', serif;
+	font-size: 1em;
+    line-height: 1.6em;
 	display: block;
 	margin-top: 1.5em;
 	margin-bottom: 2em;
@@ -746,4 +752,46 @@ button.-cta.colorWhite {
 .footerLinka {
 	color: #635a56;
 	text-decoration: none
+}
+
+
+.heroteal {
+    background: #B4B2D1;
+    height: 450px;
+    display: flex; 
+    align-items: flex-end;
+    position: relative;
+}
+
+.heroteal img {
+    border: 0;
+}
+
+.herored {
+    background: #EDE4D5;
+    height: 120px;
+    margin: 0;
+}
+
+.herored img {
+    border: 0;
+}
+
+.introtext {
+    position: absolute;
+    width: 40%;
+    min-width: 200px;
+    max-width: 600px;
+    right: 20px;
+    top: 80px;
+    margin-right: 10%;
+    padding: 20px;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    color: #EDE4D5;
+}
+
+.gap {
+    background-color: #ffffff;
+    height: 10px; 
 }
