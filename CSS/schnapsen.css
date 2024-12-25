@@ -76,6 +76,18 @@ body {
 	display: block
 }
 
+@media (max-width: 768px) {
+    .navbar a {
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 768px) {
+	.dropdown .dropbtn {
+		font-size: 16px; 
+	}
+}
+
 .arrow {
 	height: 39vw;
 	margin-left: 7.3vw;

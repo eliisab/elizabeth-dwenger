@@ -24,7 +24,7 @@ body {
     overflow: hidden;
     font-family: serif;
 }
-  
+
 /* Links inside the navbar */
 .navbar a {
     float: left;
@@ -57,6 +57,18 @@ body {
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
     text-transform: lowercase;
+}
+
+@media (max-width: 768px) {
+  .navbar a {
+      font-size: 16px; 
+  }
+}
+
+@media (max-width: 768px) {
+.dropdown .dropbtn {
+  font-size: 16px; 
+}
 }
   
 /* Dropdown content (hidden by default) */

@@ -57,6 +57,18 @@
 	display: block
 }
 
+@media (max-width: 768px) {
+    .navbar a {
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 768px) {
+	.dropdown .dropbtn {
+		font-size: 16px; 
+	}
+}
+
 body {
 	margin: 0;
 	margin-top: .5cm;
