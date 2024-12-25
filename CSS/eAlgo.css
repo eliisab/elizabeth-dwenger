@@ -13,6 +13,11 @@ body {
 	margin-bottom: 3cm
 }
 
+.logo {
+    height: 30px; 
+    width: auto;  
+}
+
 .navbar a {
 	float: left;
 	font-size: 18px;

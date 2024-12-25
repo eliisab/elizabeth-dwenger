@@ -421,6 +421,11 @@ a:hover {
 	}
 }
 
+.logo {
+    height: 30px; 
+    width: auto;  
+}
+
 #footerSVG {
 	display: flex;
 	align-items: center;

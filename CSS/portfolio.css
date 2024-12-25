@@ -8,6 +8,11 @@ main {
 	margin-bottom: 5vw
 }
 
+.logo {
+    height: 30px; 
+    width: auto;  
+}
+
 .navbar {
 	display: flex;
 	flex-direction: row;

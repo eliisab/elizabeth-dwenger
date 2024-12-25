@@ -198,6 +198,11 @@ body {
 	font-size: 1vw
 }
 
+.logo {
+    height: 30px; 
+    width: auto;  
+}
+
 .part p {
 	margin-top: 2vw;
 	width: 26vw;

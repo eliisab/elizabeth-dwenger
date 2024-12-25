@@ -4,6 +4,11 @@ body {
     background-color: #FAF9F8;
 }
 
+.logo {
+  height: 30px; 
+  width: auto;  
+}
+
 /* Navbar container */
 .navbar {
     display: flex;

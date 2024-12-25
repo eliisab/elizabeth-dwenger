@@ -588,6 +588,11 @@ a:hover {
 	}
 }
 
+.logo {
+    height: 30px; 
+    width: auto;  
+}
+
 @media (max-width:1000px) {
 	#footerContact {
 		border-top: 1px solid #91624b

@@ -10,10 +10,10 @@
 	--transition-long: 450ms;
 	--transition-extra-long: 800ms;
 	/* --color-green: #a59f79; */
-	--color-green: #DB504A;
+	--color-green: #99403c;
 	/* --color-blue: #B7D1E1; */
 	--color-blue: #91624B;
-	--color-dark-brown: #B4B2D1;
+	--color-dark-brown: #c87975;
 	/* --color-light-brown: #CDA08C; */
 	--color-light-brown: #222222;
 	--color-white: #FFFFFF;
@@ -756,7 +756,7 @@ button.-cta.colorWhite {
 
 
 .heroteal {
-    background: #B4B2D1;
+    background: var(--color-dark-brown);
     height: 450px;
     display: flex; 
     align-items: flex-end;
@@ -768,7 +768,7 @@ button.-cta.colorWhite {
 }
 
 .herored {
-    background: #EDE4D5;
+    background: #FEF9E4;
     height: 140px;
     margin: 0;
 }
@@ -784,7 +784,7 @@ button.-cta.colorWhite {
     max-width: 600px;
     right: 20px;
     top: 80px;
-    margin-right: 10%;
+    margin-right: 5%;
     padding: 20px;
     letter-spacing: 2px;
     font-size: 1.2em;
@@ -794,4 +794,40 @@ button.-cta.colorWhite {
 .gap {
     background-color: #ffffff;
     height: 10px; 
+}
+
+/* Media query for phone screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .heroteal {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto; 
+        padding: 0px; 
+    }
+
+    .heroteal img {
+        order: 2; 
+        width: 100%; 
+        margin-top: 20px;
+    }
+
+    .introtext {
+        position: static; 
+        width: 80%; 
+        max-width: none; 
+        margin: 0; 
+        padding: 40px; 
+        text-align: left; 
+    }
+
+    .herored {
+        height: auto;
+        padding: 0px;
+    }
+
+    .herored img {
+        width: 100%; 
+        margin-top: 0px;
+    }
 }
