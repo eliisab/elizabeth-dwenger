@@ -7,6 +7,13 @@
   width: auto;  
 }
 
+@media (max-width: 768px) {
+  .logo {
+      height: 12px; 
+      width: auto; 
+  }
+}
+
 body {
     margin: 0;
     margin-top: 0.5cm;

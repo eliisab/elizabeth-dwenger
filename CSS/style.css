@@ -626,7 +626,7 @@ button.-cta.colorWhite {
 	color: #91624b
 }
 
-@media (max-width:1000px) {
+@media (min-width:800px) {
 	#footerCopyright {
 		font-size: 10px
 	}
@@ -676,7 +676,7 @@ button.-cta.colorWhite {
 	color: #91624b
 }
 
-@media (max-width:1000px) {
+@media (min-width:800px) {
 	#footerContactTxt {
 		height: 100px
 	}
@@ -717,7 +717,7 @@ button.-cta.colorWhite {
 	}
 }
 
-@media (max-width:1000px) {
+@media (min-width:800px) {
 	#footerContact {
 		border-top: 1px solid #91624b
 	}
@@ -829,5 +829,12 @@ button.-cta.colorWhite {
     .herored img {
         width: 100%; 
         margin-top: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        height: 12px; 
+        width: auto; 
     }
 }

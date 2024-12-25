@@ -17,6 +17,13 @@ main {
   width: auto;  
 }
 
+@media (max-width: 768px) {
+  .logo {
+      height: 12px; 
+      width: auto; 
+  }
+}
+
 .tag {
 }
 

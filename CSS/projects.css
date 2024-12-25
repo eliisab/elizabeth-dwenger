@@ -9,6 +9,13 @@ body {
     width: auto;  
 }
 
+@media (max-width: 768px) {
+    .logo {
+        height: 12px; 
+        width: auto; 
+    }
+}
+
 .navbar {
 	display: flex;
 	flex-direction: row;
@@ -300,7 +307,7 @@ a:hover {
 	color: #91624b
 }
 
-@media (max-width:1000px) {
+@media (min-width:800px) {
 	#footerCopyright {
 		font-size: 10px
 	}
@@ -345,7 +352,7 @@ a:hover {
 	color: #91624b
 }
 
-@media (max-width:1000px) {
+@media (min-width:800px) {
 	#footerContactTxt {
 		height: 100px
 	}
@@ -386,7 +393,7 @@ a:hover {
 	}
 }
 
-@media (max-width:1000px) {
+@media (min-width:800px) {
 	#footerContact {
 		border-top: 1px solid #91624b
 	}

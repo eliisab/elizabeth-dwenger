@@ -203,6 +203,13 @@ body {
     width: auto;  
 }
 
+@media (max-width: 768px) {
+    .logo {
+        height: 12px; 
+        width: auto; 
+    }
+}
+
 .part p {
 	margin-top: 2vw;
 	width: 26vw;

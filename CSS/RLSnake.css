@@ -593,6 +593,13 @@ a:hover {
     width: auto;  
 }
 
+@media (max-width: 768px) {
+    .logo {
+        height: 12px; 
+        width: auto; 
+    }
+}
+
 @media (max-width:1000px) {
 	#footerContact {
 		border-top: 1px solid #91624b

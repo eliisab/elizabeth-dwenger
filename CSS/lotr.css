@@ -18,6 +18,13 @@ body {
     width: auto;  
 }
 
+@media (max-width: 768px) {
+    .logo {
+        height: 12px; 
+        width: auto; 
+    }
+}
+
 .navbar a {
 	float: left;
 	font-size: 18px;
